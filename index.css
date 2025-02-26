@@ -1,0 +1,48 @@
+/* Algemene stijlinstellingen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+
+
+header {
+    background-color: #275c8d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+nav {
+    background-color: #333;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+
+
+nav ul li a {
+    display: block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #376a8a;
+}
+
